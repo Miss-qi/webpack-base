@@ -9,7 +9,8 @@
     "webpack": "webpack",
     "wpw": "webpack -w",
     "coverage": "istanbul cover jasmine",
-    "eslint": "eslint app.js server/** public/src/**"
+    "eslint": "eslint app.js server/** public/src/**",
+    "refreshMongo": "babel-node ./server/tools/refreshMongo.js"
   },
   "author": "",
   "license": "ISC",
